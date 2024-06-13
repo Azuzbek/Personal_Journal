@@ -1,0 +1,20 @@
+.custom-select {
+	padding-left: 5%;
+	background-color: rgba(255, 255, 255, 0.03);
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.select {
+	cursor: pointer;
+	width: 95%;
+	display: block;
+	position: relative;
+	height: 38.5px;
+	border-radius: 3px;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+select:focus {
+	outline: none;
+}

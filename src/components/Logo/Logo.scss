@@ -1,0 +1,13 @@
+.logo {
+	width: auto;
+	height: 40px;
+	transition: all 0.25s ease-in-out;
+	&:hover {
+		transform: scale(1.01);
+	}
+}
+.logo_click {
+	cursor: pointer;
+	background: none;
+	border: none;
+}

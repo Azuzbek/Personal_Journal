@@ -1,0 +1,23 @@
+.input {
+	width: 100%;
+	border: none;
+	background: none;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: normal;
+	outline: none;
+	border-radius: 3px;
+}
+.input-title {
+	font-size: 32px;
+	outline: none;
+}
+.input-title::placeholder {
+	color: white;
+	filter: brightness(0.8); /* Замените #999 на нужный вам цвет */
+}
+
+.invalid {
+	border: 1px solid #646cff;
+}
